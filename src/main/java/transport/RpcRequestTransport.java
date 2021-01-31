@@ -1,6 +1,7 @@
 package transport;
 
 import dto.RpcRequest;
+import extensions.SPI;
 
 @SPI
 public interface RpcRequestTransport {
